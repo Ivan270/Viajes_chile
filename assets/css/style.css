@@ -20,20 +20,32 @@ footer {
 }
 
 /* NAVBAR */
+#container-navbar {
+    position:relative;
+}
+
+.navbar {
+    position: absolute;
+    top:0;
+    z-index: 10;
+    width: 100%;
+}
 .bg-viajes-chile {
     background-color: #F3F3E7;
 }
 
 #nav-title {
-    color: black;
+    color: white;
     text-transform: capitalize;
 }
 
-.menu-nav {
+.navbar-nav {
     letter-spacing: 0.1875rem;
     text-transform: lowercase;
     font-size: smaller;
 }
+
+
 
 /* QUIENES SOMOS */
 .title-descripcion {
