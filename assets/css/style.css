@@ -35,4 +35,32 @@ footer {
     font-size: smaller;
 }
 
+/* QUIENES SOMOS */
+.title-descripcion {
+    color: #787b7e;
+    letter-spacing: 0.625rem;
+}
+
+.title-icon {
+    color: #B2C4CB
+}
+
+.txt-descripcion {
+    color: #999DA0;
+    letter-spacing: 0.125rem;
+}
+
+.titulo-destinos {
+    color: #787b7e;
+}
+
+/* DESTINOS DESTACADOS */
+/* Emparejar tamaño de fotos cards */
+.card-img-top {
+    width: 100%;
+    height: 10rem;
+    object-fit: cover;
+}
+
+
 }
