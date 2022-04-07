@@ -96,3 +96,29 @@ footer {
         letter-spacing: 13px;
     }
 }
+
+/* Si pantalla es menor a 1200px ancho */
+@media (max-width: 1199.98px) {
+    h1 {
+        font-size: 15px;
+        letter-spacing: 10px;
+    }
+
+    #nav-title {
+        font-size: 13px;
+    }
+
+    .txt-descripcion {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+
+    .titulo-destinos {
+        font-size: 25px;
+        letter-spacing: 5px;
+    }
+    #title-footer {
+        font-size: 15px;
+        letter-spacing: 7px;
+    }
+}
