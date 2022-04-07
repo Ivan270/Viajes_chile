@@ -5,12 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;600&display=swap" rel="stylesheet">
-
+    <!-- Bootstrap 5.1 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Fontawesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css"
         integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous">
     <link rel="stylesheet" href="assets\css\style.css">
@@ -19,10 +21,10 @@
 </head>
 
 <body>
-    <div id="container-navbar" class="container bg-transparent px-0">
-        <nav class="navbar navbar-dark navbar-expand-lg px-0">
-            <a id="nav-title" class="navbar-brand menu-nav px-0" href="">
-                <img src="assets\img\viajes.svg" class="" width="30" alt="Viajes Chile">
+    <div class="bg-transparent">
+        <nav id="nav-menu" class="navbar navbar-dark navbar-expand-lg fixed-top px-3">
+            <a id="nav-title" class="navbar-brand" href="">
+                <img src="assets\img\viajes.svg" width="30" alt="Viajes Chile">
                 Viajes Chile
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -48,6 +50,7 @@
             </div>
         </nav>
     </div>
+
     <header id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -90,7 +93,8 @@
                 <div class="col-4 px-md-2 p-lg-5">
                     <h3 class="title-fade2 title-descripcion">Océano</h1>
                         <i class="title-fade2 fa-solid fa-water fa-2x pt-4 pb-5 title-icon"></i>
-                        <p class="txt-descripcion txt-fade  justify-content-center">Lorem ipsum dolor sit amet consectetur,
+                        <p class="txt-descripcion txt-fade  justify-content-center">Lorem ipsum dolor sit amet
+                            consectetur,
                             adipisicing elit. Culpa molestiae maxime debitis ab
                             dicta consequuntur hic architecto! Atque odio ipsam consectetur iusto, cupiditate in,
                             repellat optio laborum veniam dolorum soluta.
@@ -101,7 +105,8 @@
                 <div class="col-4 px-md-2 p-lg-5">
                     <h3 class="title-fade3 title-descripcion">Astronomía</h1>
                         <i class="title-fade3 fa-solid fa-meteor fa-2x pt-4 pb-5 title-icon"></i>
-                        <p class="txt-descripcion txt-fade">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet ut
+                        <p class="txt-descripcion txt-fade">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Amet ut
                             sunt voluptas consequuntur
                             excepturi veniam necessitatibus enim. Eius, blanditiis accusamus ut alias explicabo, neque
                             cumque ab possimus labore modi quidem!
@@ -186,7 +191,8 @@
                     <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
                 </div>
                 <div class="col-12 text-center">
-                    <button type="submit" class="btn btn-info text-white" data-bs-toggle="tooltip" data-bs-placement="right" title="Haz click para enviar tu mensaje">Enviar</button>
+                    <button type="submit" class="btn btn-info text-white" data-bs-toggle="tooltip"
+                        data-bs-placement="right" title="Haz click para enviar tu mensaje">Enviar</button>
                 </div>
             </form>
         </div>

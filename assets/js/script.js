@@ -17,3 +17,11 @@ $(document).ready(function () {
         $(".title-fade3").fadeIn(3000);
     });
 });
+
+$(window).scroll(function(){
+    if($("#nav-menu").offset().top > 56){
+        $("#nav-menu").addClass("bg-dark")
+    }else{
+        $("#nav-menu").removeClass("bg-dark")
+    }
+})
