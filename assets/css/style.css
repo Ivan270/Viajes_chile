@@ -1,0 +1,38 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 300;
+}
+
+h1 {
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #787b7e;
+}
+
+footer {
+    font-weight: 600;
+    background-color: #B2C4CB;
+    color: white;
+}
+
+/* NAVBAR */
+.bg-viajes-chile {
+    background-color: #F3F3E7;
+}
+
+#nav-title {
+    color: black;
+    text-transform: capitalize;
+}
+
+.menu-nav {
+    letter-spacing: 0.1875rem;
+    text-transform: lowercase;
+    font-size: smaller;
+}
+
+}
