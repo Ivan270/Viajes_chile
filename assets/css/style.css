@@ -62,5 +62,37 @@ footer {
     object-fit: cover;
 }
 
+/* CONTACTO */
+.bg-form {
+    background-color: #F09CA2;
+}
 
+
+/* MEDIA QUERIES */
+/* Si pantalla es igual o mayor a 1200px ancho */
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 34px;
+        letter-spacing: 20px;
+    }
+
+    #nav-title {
+        font-size: 13px;
+        letter-spacing: 13px;
+    }
+
+    .txt-descripcion {
+        font-size: 12px;
+        line-height: 2;
+    }
+
+    .titulo-destinos {
+        font-size: 1.0625rem;
+        letter-spacing: 0.625rem;
+    }
+
+    #title-footer {
+        font-size: 17px;
+        letter-spacing: 13px;
+    }
 }
